@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "5ec2ccfd-936f-48bf-ac36-ef4f97a840f1",
+		"name": "rle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25096040",
+		"_collection_link": "https://raven2046-team.postman.co/workspace/rle~e6a01923-ad5c-40c6-bdb4-130449abb364/collection/25096040-5ec2ccfd-936f-48bf-ac36-ef4f97a840f1?action=share&source=collection_link&creator=25096040"
+	},
+	"item": [
+		{
+			"name": "test-task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "777AA22223ffffffff99",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/rle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
